@@ -96,9 +96,7 @@ cv::Mat create_contour_image(cv::Mat image) {
 // Errechnet aus einem Contour Bild den Drehwinkel des Bildes
 //
 float get_image_angle(cv::Mat contour_image) {
-    
-    int thresh = 100;
-    
+
     cv::Mat canny_image;
     vector<cv::Vec2f> lines;
     
