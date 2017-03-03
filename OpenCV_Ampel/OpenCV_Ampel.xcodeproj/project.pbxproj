@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A7E1224B1DFA961E00888F82 /* image_manipulation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7E1224A1DFA961E00888F82 /* image_manipulation.cpp */; };
-		A7E9DFA81DB932B800AB4FB4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7E9DFA71DB932B800AB4FB4 /* main.cpp */; };
+		A78608421E697430009E902C /* image_manipulation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A786083F1E697430009E902C /* image_manipulation.cpp */; };
+		A78608431E697430009E902C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A78608411E697430009E902C /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,10 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A7E122491DFA961E00888F82 /* image_manipulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = image_manipulation.h; sourceTree = "<group>"; };
-		A7E1224A1DFA961E00888F82 /* image_manipulation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = image_manipulation.cpp; sourceTree = "<group>"; };
+		A786083F1E697430009E902C /* image_manipulation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = image_manipulation.cpp; path = ../../OpenCV_Ampel/OpenCV_Ampel/image_manipulation.cpp; sourceTree = "<group>"; };
+		A78608401E697430009E902C /* image_manipulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = image_manipulation.h; path = ../../OpenCV_Ampel/OpenCV_Ampel/image_manipulation.h; sourceTree = "<group>"; };
+		A78608411E697430009E902C /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../OpenCV_Ampel/OpenCV_Ampel/main.cpp; sourceTree = "<group>"; };
 		A7E9DFA41DB932B800AB4FB4 /* OpenCV_Ampel */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenCV_Ampel; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7E9DFA71DB932B800AB4FB4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +60,9 @@
 		A7E9DFA61DB932B800AB4FB4 /* OpenCV_Ampel */ = {
 			isa = PBXGroup;
 			children = (
-				A7E122491DFA961E00888F82 /* image_manipulation.h */,
-				A7E1224A1DFA961E00888F82 /* image_manipulation.cpp */,
-				A7E9DFA71DB932B800AB4FB4 /* main.cpp */,
+				A786083F1E697430009E902C /* image_manipulation.cpp */,
+				A78608401E697430009E902C /* image_manipulation.h */,
+				A78608411E697430009E902C /* main.cpp */,
 			);
 			name = OpenCV_Ampel;
 			path = OpenCV3_Example1;
@@ -126,8 +126,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7E1224B1DFA961E00888F82 /* image_manipulation.cpp in Sources */,
-				A7E9DFA81DB932B800AB4FB4 /* main.cpp in Sources */,
+				A78608431E697430009E902C /* main.cpp in Sources */,
+				A78608421E697430009E902C /* image_manipulation.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
